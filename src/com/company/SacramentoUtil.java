@@ -47,6 +47,7 @@ public class SacramentoUtil {
 
                 i++;
             }
+            System.out.println(crimes.size());
         }
     }
 }
