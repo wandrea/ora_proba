@@ -1,5 +1,6 @@
 package com.company;
 
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
@@ -59,9 +60,17 @@ public class Main {
 
 
 
+        SacramentoUtil su = new SacramentoUtil();
+        try {
+            su.readSacramentoCSV();
 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
     }
+
+
 }
 
